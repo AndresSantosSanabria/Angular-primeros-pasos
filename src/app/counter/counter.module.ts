@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
-import { CounterComponent } from './components/counter/counter.componets';
+import { CounterComponent } from './components/counter/counter.component';
+
 
 @NgModule({
   declarations: [
@@ -7,8 +8,6 @@ import { CounterComponent } from './components/counter/counter.componets';
   ],
   exports: [
     CounterComponent
-  ],
-  providers: [],
-  bootstrap: []
+  ]
 })
-export class CounterModule { }
+export class CounterModule {}
